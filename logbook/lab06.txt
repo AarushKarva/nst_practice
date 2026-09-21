@@ -1,0 +1,13 @@
+LAB 6 LOGBOOK - <Aarush_Anand_Karva> - <E26B07F1018>
+SETUP: my working directory is ~/nst
+T1 prediction: I think ls / will show about 8 items
+T1: /bin holds Commands
+T1: /dev holds files that represent devices attached to the system
+T1: / means root directory, ~ means home directory , . means current directory
+T1: the OS groups files by directory
+T2 prediction: ./deploy will not work because noone has the permission to execute the command
+T2 prediction: appending after u-w willnot work because the permission was denied
+T2: -rw-r--r-- written in numbers is 644
+T2: ./deploy failed at first because x that is the execute permission was not given
+T2: the new policy needed chmod to modify the file
+-rwxr-x---  1 aarushkarva  staff  36  8 Sep 13:27 deploy

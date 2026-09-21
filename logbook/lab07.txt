@@ -1,0 +1,12 @@
+LAB 7 LOGBOOK - <Aarush_Anand_Karva> - <E26B07F1018>
+SETUP: clang version 21.0.0 python3 version 3.13.15
+T1: running hello.py created NO new files
+T1 prediction: ./hello.c will not work and python3 hello.c will work
+T1 prediction: ./hello.c will not work and python3 hello.c will also not work
+T1: ./hello.c failed because of syntax error ; python3 hello.c failed because of SyntaxError
+T1: the extra step in the C workflow is clang and it produces hello
+T1: when I run python3 hello.py the CPU executes python3 ; hello.py is just data
+T1: hello.c is 70 bytes and hello is 32 bytes. my guess for why: ???
+T2: file says hello is Mach-O 64-bit executable arm64
+T2 prediction: python3 itself is machine_code
+T2: python3 is machine_code so when I run python3 hello.py the CPU executes hello.py  and reads as data
