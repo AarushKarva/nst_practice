@@ -1,0 +1,2 @@
+Repository initialize git init
+For staging: git add <FileName>
